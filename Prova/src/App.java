@@ -47,7 +47,7 @@ class Prova {
 
     // MATRIZ B
 
-    System.out.println("SEGUNDA MATRIZ"); // k=linha /l=coluna
+    System.out.println("SEGUNDA MATRIZ");
     for (int i = 0; i < matB.length; i++) {
       for (int j = 0; j < matB[i].length; j++) {
         System.out.println("Digite o número linha: " + (i + 1) + ", coluna: " + (j + 1));
