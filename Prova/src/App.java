@@ -38,13 +38,6 @@ class Prova {
       }
     }
 
-    System.out.println("A matriz é dada por: "); // Saida dos numeros dados
-    for (int i = 0; i < matA.length; i++) {
-      for (int j = 0; j < matA[i].length; j++) {
-        System.out.println(matA[i][j] + " na linha " + (i + 1) + ", coluna: " + (j + 1));
-      }
-    }
-
     // MATRIZ B
 
     System.out.println("SEGUNDA MATRIZ");
@@ -55,18 +48,6 @@ class Prova {
       }
     }
 
-    System.out.println("A matriz é dada por: "); // Saida dos numeros dados
-    for (int i = 0; i < matB.length; i++) {
-      for (int j = 0; j < matB[i].length; j++) {
-        System.out.println(matB[i][j] + " na linha " + (i + 1) + ", coluna: " + (j + 1));
-      }
-    }
-
-    System.out.print("Deseja multiplicar as matrizes? S/N:");
-    answer = entrada.next();
-
-    if (answer.equalsIgnoreCase("S")) {
       matC();
-    }
   }
 }
